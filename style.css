@@ -15,3 +15,10 @@ body {
 img {
   width: 100%;
 }
+
+.container {
+  padding: 5px;
+  display: grid;
+  grid: repeat(6, 1fr) / repeat(8, 1fr);
+  gap: 5px;
+}
