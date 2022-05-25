@@ -53,6 +53,22 @@ img {
   font-weight: bold;
 }
 
+.design-div {
+  position: relative;
+  z-index: 1;
+  grid-column: 4;
+  grid-row: 3;
+  grid-column: 4 / span 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.design-p {
+  font-size: 8rem;
+  color: red;
+}
+
 .img-3 {
   grid-column: 7 / span 2;
   grid-row: 2 / span 2;
